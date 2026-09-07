@@ -1,0 +1,14 @@
+interface:
+  display_name: Dithered Visuals
+  short_description: Create bold two-color ordered-dither artwork
+  default_prompt: Use $dithered-visuals to create a composition-ready image and transform
+    it with Bayer 4x4 dithering.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
